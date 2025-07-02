@@ -1,14 +1,44 @@
-# React + Vite
+# 🌍 Country Explorer App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive and modern React application that displays detailed information about countries using the REST Countries API.
 
-Currently, two official plugins are available:
+## 🌐 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+👉 [*Try the App Here*](https://nikhil-countries-app.netlify.app)
 
-## Expanding the ESLint configuration
+Deployed on *Netlify* — mobile-friendly, fast, and interactive.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-"# country" 
-"# country" 
+---
+
+## ✨ Features
+
+- 🔎 Search for any country by name
+- 🗂 Filter countries by region (Asia, Europe, etc.)
+- 🌘 Toggle between *light and dark* mode
+- 🧭 View detailed info:
+  - Capital, Population, Currencies, Languages, Region, Subregion, Flag, etc.
+- 🌍 Click on *border countries* to view their details
+- 🔁 Seamless navigation with *React Router*
+
+---
+
+## 🚀 Tech Stack
+
+- React
+- React Router
+- Vite
+- JavaScript (ES6+)
+- CSS
+- REST Countries API
+
+---
+
+## 📦 Installation
+
+Follow these steps to run locally:
+
+```bash
+git clone https://github.com/Nikhil-Mishra12/country-app1.git
+cd country-app1
+npm install
+npm run dev
